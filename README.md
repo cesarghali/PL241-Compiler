@@ -1,7 +1,6 @@
 PL241-Compiler
 ==============
 
-<<<<<<< HEAD
 Course project of <a href="http://www.ics.uci.edu/~franz/Site/w12cs241.html" target="_new">CS241</a>, Advanced Compiler Construction, UC Irvine.  
 This is a real compiler which compiles programs written in PL241 language to DLX machine code. We are doing:
 * Constant folding
@@ -63,8 +62,5 @@ Packages
 
 Contact
 -------
-* <a href="https://github.com/cesarghali" target="_new">Cesar Ghali
-* Ekin Oguz
-=======
-Course project of CS241 Advanced Compiler Construction, UC Irvine.
->>>>>>> 954319126e8ce328563324ca2e73b25a93e14688
+* Cesar Ghali
+* <a href="https://github.com/ekinoguz" target="_new">Ekin Oguz
