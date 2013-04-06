@@ -1,0 +1,10 @@
+main
+
+var a, b, c;
+{
+	let a <- 1;
+	while a < 10 do
+		let a <- 1
+	od;
+	let c <- b
+}.

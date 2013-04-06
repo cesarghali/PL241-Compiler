@@ -1,0 +1,18 @@
+main
+
+var a, b, c, d, e, g, t, u;
+
+{
+	let b <- 5;
+	let c <- 6;
+	let g <- 11;
+	let e <- 10;
+	let a <- b * c + g;
+	let d <- b * c + e;
+	if d < 10 then
+		let t <- 1
+	else
+		let t <- 2
+	fi;
+	let u <- t * 5
+}.

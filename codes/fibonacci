@@ -1,0 +1,39 @@
+#Simple parsing test
+main
+var input;
+
+function fibIter(n);
+var i, j, t, out;
+{
+	let i <- 0;
+	let j <- 1;
+	let out <- 1;
+	let t <- 1;
+	while t <= n do
+		let out <- i + j;
+		let i <- j;
+		let j <- out;
+		let t <- t + 1
+	od;
+	return out
+};
+
+function fibRec(n);
+{
+	if n == 1 then
+		return 1
+	fi;
+	if n == 0 then
+		return 0
+	fi;
+	return call fibRec(n - 1) + call fibRec(n - 2)
+};
+
+{
+	let input <- call InputNum();
+	call OutputNum(call fibIter(input));
+	call OutputNewLine();
+	call OutputNum(call fibRec(input));
+	call OutputNewLine()
+}
+.

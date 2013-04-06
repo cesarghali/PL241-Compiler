@@ -1,0 +1,12 @@
+main
+
+var a, b, c, d, e, g;
+
+{
+	let b <- 5;
+	let c <- 6;
+	let g <- 11;
+	let e <- 10;
+	let a <- b * c + g;
+	let d <- b * c + e
+}.

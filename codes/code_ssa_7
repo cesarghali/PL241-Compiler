@@ -1,0 +1,15 @@
+main
+
+var x, y, z;
+
+function add(param1, param2);
+{
+	return param1 + param2
+};
+
+{
+	let x <- 5;
+	let y <- 6;
+	let z <- call add(x + 3 * y, y)
+}
+.

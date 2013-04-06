@@ -1,0 +1,31 @@
+main
+
+var a, b, c, d, e, g, t, u, i;
+
+{
+	let d <- 30;
+	let i <- 0; 
+	if d < 10 then
+		let t <- 1;
+		if d >= 5 then 
+			let e <- 1
+		else
+			let g <- 1
+		fi;
+		while i < 10 do
+			if d == 1 then
+				let i <- i + 1
+			else
+				let i <- i + 2
+			fi
+		od
+	else
+		if d >= 20 then 
+			let t <- 4
+		else
+			let t <- 5
+		fi;
+		let c <- 1
+	fi;
+	let u <- t * 5
+}.

@@ -1,0 +1,12 @@
+main
+
+var x;
+var y, z, t;
+
+{
+	let x <- 5;
+	let y <- 6;
+	let z <- 11;
+	let t <- x - 6 + (y * 2) + (z / 11);
+	let x <- t - (10 + 25)
+}.

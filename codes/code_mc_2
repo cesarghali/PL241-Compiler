@@ -1,0 +1,6 @@
+main
+array[10][10] b, a;
+{
+	let a[7][6] <- call InputNum() * call InputNum();
+	call OutputNum(a[7][6])
+}.

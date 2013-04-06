@@ -1,0 +1,16 @@
+# ekin's program
+
+# ekin's program
+
+main
+
+var a, b, c, g, d, e, z, y, t, u;
+
+{
+	let b <- 2 * 3;
+	let d <- b;
+	let c <- b * 3;
+	while b < 1 do
+		let a <- (b * c) + d
+	od
+}.

@@ -1,0 +1,14 @@
+# Package Files #
+*.war
+*.ear
+.DS_Store
+graphviz/*.png
+graphviz/*.dot
+graphviz/*.dlx
+*~
+*.orig
+*.prefs
+bin/
+codes/testprogs/
+output/
+Brainstorm/

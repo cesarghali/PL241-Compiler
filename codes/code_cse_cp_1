@@ -1,0 +1,33 @@
+# ekin's program
+
+
+main
+
+var a, b, c, g, d, e, z, y, t, u;
+
+{
+	let b <- call InputNum();
+	let c <- call InputNum();
+	let g <- call InputNum();
+	let d <- call InputNum();
+	if b < 1 then
+		let a <- (b * c) + g;
+		while b < 1 do
+			let a <- (b * c) + d
+		od
+	else
+		let a <- (b * c) + g
+	fi;
+	let y <- (b * c) * d;
+	let u <- (b * c) * a;
+	let t <- (b * a) * d;
+	call OutputNum((b * c) * d);
+	call OutputNewLine();
+	call OutputNum(d);
+	call OutputNewLine();
+	let z <- a;
+	let y <- z + 6;
+	call OutputNum(z);
+	let z <- a + 5;
+	call OutputNum(z)
+}.

@@ -1,0 +1,7 @@
+var var1;   var var2   ;
+
+
+
+let var1<-5;
+
+let var2<-var1*6;

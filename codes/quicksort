@@ -1,0 +1,61 @@
+main
+
+array[5] numbers;
+var count;
+
+function partition(low, high, index);
+var pivot, store, tmp, i, k;
+{
+	let tmp <- 0;
+	let pivot <- numbers[index];
+	let numbers[index] <- numbers[high];
+	let numbers[high] <- pivot;
+	let store <- low;
+	let k <- high + 0;
+	let i <- low;
+	while i < k do
+		#call OutputNum(high);
+		if numbers[i] < pivot then
+			let tmp <- numbers[i];
+			let numbers[i] <- numbers[store];
+			let numbers[store] <- tmp;
+			let store <- store + 1
+		fi;
+		let i <- i + 1
+	od;
+	let tmp <- numbers[store];
+	let numbers[store] <- numbers[high];
+	let numbers[high] <- tmp;
+	return store
+};
+
+function quicksort(low, high);
+var pivot, pos;
+{
+	let pivot <- 0;
+	let pos <- 0;
+	if low < high then
+		call OutputNum(1);
+		let pivot <- low;
+		let pos <- call partition(low, high, pivot);
+		call quicksort(0, pos-1);
+		call quicksort(pos+1, high)
+	fi
+};
+
+{
+	let numbers[0] <- 5;
+	let numbers[1] <- 2;
+	let numbers[2] <- 7;
+	let numbers[3] <- 9;
+	let numbers[4] <- 1;
+	call quicksort(0, 4);
+	call OutputNewLine();
+	let count <- 0;
+	while count < 5 do
+		call OutputNum(numbers[count]);
+		let count <- count + 1
+	od
+}.
+
+	

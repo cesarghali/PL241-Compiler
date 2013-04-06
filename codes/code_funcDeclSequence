@@ -1,0 +1,12 @@
+function func1(param1, param2);
+var x, y;
+array[2][4] a1;
+{
+	let x <- param1;
+	let a1[1][1] <- param2;
+	let y <- x + a[1][1]
+};
+procedure proc1(i1);
+{
+	let x <- param1
+};

@@ -1,0 +1,27 @@
+main
+
+array[3] a, b;
+
+function inc(x, y, z);
+{
+	let a[0] <- a[0] + x;
+	let a[1] <- a[1] + y;
+	let a[2] <- a[2] + z
+};
+
+function sum(a1, a2, a3);
+{
+	call inc(2, 3, 4);
+	return a1 + a2 + a3
+};
+
+{
+	let a[0] <- call InputNum();
+	let a[1] <- call InputNum();
+	let a[2] <- call InputNum();
+	let b <- call sum(1, 2, 3);
+	call OutputNum(a[0]);
+	call OutputNum(a[1]);
+	call OutputNum(a[2]);
+	call OutputNum(b)
+}.

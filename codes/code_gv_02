@@ -1,0 +1,18 @@
+main
+
+var x, a, b;
+
+procedure square( );
+{
+	let x <- x * x
+};
+
+{
+	let a <- call InputNum();
+	let x <- call InputNum();
+	let b <- x + a;
+	let b <- x + a;
+	call square;
+	let b <- x + a;
+	call OutputNum(x)
+}.

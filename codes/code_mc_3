@@ -1,0 +1,11 @@
+main
+var a, b;
+{
+	let a <- call InputNum();
+	if a < 5 then
+		let b <- 0
+	else
+		let b <- 1
+	fi;
+	call OutputNum(b)
+}.

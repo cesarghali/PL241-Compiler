@@ -1,0 +1,9 @@
+main
+
+var x;
+var y;
+
+{
+	let x <- x * 5
+}
+.

@@ -1,0 +1,41 @@
+main
+
+array[100] numbers;
+var length, count;
+
+function bubblesort();
+var tmp, i, j;
+{
+	let i <- 0;
+	while i < length do
+		let j <- i + 1;
+		while j < length do
+			 if numbers[i] > numbers[j] then
+				 let tmp <- numbers[j];
+				 let numbers[j] <- numbers[i];
+				 let numbers[i] <- tmp
+			fi;
+			let j <- j + 1
+		od;
+		let i <- i + 1
+	od
+};
+
+{
+	let length <- call InputNum();
+	let count <- 0;
+	while count < length do
+		let numbers[count] <- call InputNum();
+		let count <- count + 1
+	od;
+	call bubblesort();
+	
+	let count <- 0;
+	while count < length do
+		call OutputNum(numbers[count]);
+		let count <- count + 1
+	od
+}.
+
+	
+	

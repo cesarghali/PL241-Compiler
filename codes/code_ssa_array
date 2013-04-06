@@ -1,0 +1,13 @@
+# ekin's program
+
+main
+
+var x, y;
+array[2] a, b;
+
+{
+	let a[0] <- 5;
+	let x <- a[0] + 1;
+	call OutputNum(a[0]);
+	call OutputNum(a[0])
+}.

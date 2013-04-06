@@ -1,0 +1,31 @@
+main
+
+array[5] numbers;
+
+ function partition(low, high, index);
+var pivot, store, tmp, i;
+{
+       let i <- low;
+       call OutputNum(high);
+       while i < high do
+               call OutputNum(i);
+               let i <- i + 1
+       od;
+       return 0
+};
+{
+	let numbers[0] <- 5;
+	let numbers[1] <- 2;
+	let numbers[2] <- 7;
+	let numbers[3] <- 9;
+	let numbers[4] <- 1;
+	#call quicksort(0, 4);
+	call OutputNum(call partition(0, 4, 1));
+	call OutputNum(numbers[0])
+	#call OutputNum(numbers[1]);
+	#call OutputNum(numbers[2]);
+	#call OutputNum(numbers[3]);
+	#call OutputNum(numbers[4])
+}.
+
+	

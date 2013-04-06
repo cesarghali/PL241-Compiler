@@ -1,0 +1,28 @@
+main
+
+array[1] a;
+var x, y;
+
+function init();
+var i;
+{
+	let i <- 0;
+	while i < 1 do
+		let a[i] <- 20;
+		let i <- i + 1
+	od
+};
+
+function sum();
+{
+	return x + y
+};
+
+{
+	let x <- 3;
+	let y <- 4;
+	
+	call init();
+		
+	call OutputNum(call sum())
+}.

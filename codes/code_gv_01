@@ -1,0 +1,14 @@
+main
+
+var x;
+
+procedure square( );
+{
+	let x <- x * x
+};
+
+{
+	let x <- 2 - call InputNum();
+	call square;
+	call OutputNum(x)
+}.

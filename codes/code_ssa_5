@@ -1,0 +1,14 @@
+main
+
+var i, j;
+
+{
+	let i <- 0;
+	let j <- 0; 
+	while i < 10 do
+		let i <- i + 1;
+		while j < 10 do
+			let j <- j + 1
+		od
+	od
+}.

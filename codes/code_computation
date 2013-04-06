@@ -1,0 +1,57 @@
+main
+
+var x;
+var y, z, t, f, g, i, k;
+array[2] a1;
+array[3][4][5] a2, a3, a4;
+
+
+function func1(param1, param2);
+array[3][4] a;
+{
+	let x <- param1;
+	let a1[1] <- param2;
+	let y <- x + a[1][1]
+};
+procedure proc1(i1);
+{
+	let x <- i1
+};
+
+
+{
+	let x <- y + (5 * 2) + z;
+	let x <- call func1(x, y);
+	if x < y then
+		let z <- 1
+	else
+		let z <- 2
+	fi;
+	let t <- z * z;
+	if t > 1 then
+		if x > 2 then
+			let f <- y[5][(z[1] + 3) * 2] + 10;
+			let g <- 1
+		else
+			while i < 10 do
+				let i <- i + 1
+			od;
+			let g <- 2
+		fi
+	fi;
+	let k <- g + (2 * 3);
+	let i <- 1;
+	while i < 10 do
+		let i <- i + 1;
+		if x > 2 then
+			let g <- 1
+		else
+			let g <- 2
+		fi
+	od;
+	let i <- 50;
+	call proc1;
+	call func1(x + 2 * 3, y);
+	call proc2()
+}
+.

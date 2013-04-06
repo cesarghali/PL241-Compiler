@@ -1,0 +1,17 @@
+do {
+	x == x;
+	x <= x;
+	x > x;
+while (true);
+
+x <- y + y;
+x <- 5 / 5;
+x <- y * y * y;
+
+if ( x.radius == 314)
+		return x * x;
+		
+		
+function(var x) {
+	return x * x;
+}

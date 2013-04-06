@@ -1,0 +1,29 @@
+main
+
+var x, y;
+
+function cube(arg1);
+{
+	return arg1 * arg1 * arg1
+};
+
+function square(arg1);
+{
+	let arg1 <- call cube(arg1);
+	return arg1 * arg1
+};
+
+function factorial(arg1);
+var a;
+{
+	if arg1 == 1 then
+		return 1
+	fi;
+	return  call factorial(arg1-1) * arg1
+};
+
+
+{
+	let x <- call InputNum();
+	call OutputNum(call factorial(x))
+}.

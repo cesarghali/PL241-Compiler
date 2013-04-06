@@ -1,0 +1,4 @@
+var x;
+var y, z;
+array[2] a1;
+array[3][4][5] a2, a3, a4;

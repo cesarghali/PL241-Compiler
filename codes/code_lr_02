@@ -1,0 +1,12 @@
+main
+var i, j;
+{
+	let i <- call InputNum();
+	let j <- call InputNum();
+	while j < 1000 do
+		if j / 2 == 0 then
+			let j <- j + 1
+		fi
+	od;
+	call OutputNum(i)
+}.
